@@ -533,12 +533,13 @@ margin-right: 6rem;
 
 .footer-responsive {
     display: grid;
-    height: 120%;
+    height: 1000%;
     font-size: 1rem;
     grid-area: footer;
     align-items: center;
     align-content: center;
-    display: inline-flex;
+    display: block;
+    
     
     
 }
@@ -659,7 +660,7 @@ margin-right: 6rem;
     background-color: rgb(54, 51, 51);
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 100vh;
+    height: 3000%;
     grid-template-areas:
     "header"
     "caja-team"
