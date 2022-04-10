@@ -651,24 +651,31 @@ margin-right: 6rem;
 
 
 /*equipo*/
-
 .conteiner__gridteam {
     display: grid;
     background-image: none;
     background-color: rgb(54, 51, 51);
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 100vh;
-    overflow: hidden;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 3000%;
     grid-template-areas:
     "header"
-    "caja-team"
     "caja_galeria1"
     "caja_galeria2"
     "footer";
 }
 
+.caja__team{
+    grid-area: caja_galeria1;
+    display: block;
+    
+}
 
+.caja__team2{
+    grid-area: caja_galeria2;
+    display: block;
+    
+}
 
 .footer-responsiventeam {
     display: grid;
@@ -678,16 +685,15 @@ margin-right: 6rem;
 
 }
 
-.caja__team{
-    height: 600vh;
-}
+
+
 
 /*canales*/
 
 .conteiner__gridteam {
     display: grid;
     background-image: none;
-    background-color: rgb(160, 36, 108);
+    background-color: rgb(54, 10, 51);
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     height: 100vh;
